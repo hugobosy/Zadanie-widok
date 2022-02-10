@@ -1,0 +1,255 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <div class="header__logo">
+            <img src="./img/logo-euxpro-rounded.svg" alt="">
+        </div>
+        <div class="header__utils">
+            <p class="header__util"><i class='bx bx-search' ></i></p>
+            <p class="header__util"><i class='bx bxs-bell' ></i></p>
+            <p class="header__util"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Flag_of_Great_Britain_%281707%E2%80%931800%29.svg/1200px-Flag_of_Great_Britain_%281707%E2%80%931800%29.svg.png" alt=""></p>
+            <p class="header__photo"></p>
+            <p class="header__name">Adam Kot <i class="fas fa-chevron-down"></i></p>
+        </div>
+    </div>
+    <main class="main">
+
+        <nav class="main__menu">
+
+            <ul class="main__menu-items">
+
+                <li class="main__menu-item">
+                    <i class='bx bxs-home'></i> <a href="#" class="main__menu-link">Dashboard</a>
+                </li>
+                <li class="main__menu-item">
+                    <i class='bx bx-world' ></i> <a href="#" class="main__menu-link">Intranet </a><i class="fas fa-chevron-down"></i>
+                </li>
+                    <ul class="main__menu-items-lv2">
+                        <li class="main__menu-item">
+                            <a href="#" class="main__menu-link">Settings</a>
+                        </li>
+                        <li class="main__menu-item">
+                            <a href="#" class="main__menu-link">Group</a>
+                        </li>
+                    </ul>
+                <li class="main__menu-item">
+                    <i class='bx bxs-notepad' ></i> <a href="#" class="main__menu-link">Invoice</a><span class="main__menu-link-num">15</span>
+                </li>
+                <li class="main__menu-item">
+                    <i class='bx bxs-home'></i></i> <a href="#" class="main__menu-link">Projects</a>
+                </li>
+                <li class="main__menu-item">
+                    <i class='bx bx-key' ></i> <a href="#" class="main__menu-link">Passwords</a>
+                </li>
+                <li class="main__menu-item">
+                    <i class='bx bxs-time' ></i> <a href="#" class="main__menu-link">Time work</a>
+                </li>
+                <li class="main__menu-item">
+                    <i class='bx bxs-brush' ></i> <a href="#" class="main__menu-link">Figma</a>
+                </li>
+                <li class="main__menu-item">
+                    <i class='bx bxs-music' ></i> <a href="#" class="main__menu-link">Spotify</a>
+                </li>
+                <li class="main__menu-item">
+                    <i class='bx bx-mail-send' ></i> <a href="#" class="main__menu-link">Email</a>
+                </li>
+                <li class="main__menu-item">
+                    <i class='bx bxs-chat' ></i> <a href="#" class="main__menu-link">Chat</a><span class="main__menu-link-num">5</span>
+                </li>
+                <li class="main__menu-item">
+                    <i class='bx bxs-user' ></i> <a href="#" class="main__menu-link">Users</a>
+                </li>
+
+            </ul>
+
+        </nav>
+
+        <section class="main__content">
+
+            <div class="main__content-up">
+                <p class="main__content-task">Task</p>
+                <input type="text" placeholder="What have you done?" class="main__content-input">
+                <div class="main__content-time"><span>8:00</span> -> <span>12:00</span></div>
+                <p class="main__content-today">Today </p>
+                <p class="main__content-addTime">Add time</p>
+                <p class="main__content-thisWeek"><span>This week</span></p>
+                <p class="main__content-list-view"><span>Task list view</span></p>
+                <div class="main__content-show-btn">
+                    <div>Show weekend <p><span></span></p></div>
+                    <div>Show completed tasks <p><span></span></p></div>
+                </div>
+                <p class="main__content-week-total">Week total: 32:00</p>
+            </div>
+
+            <div class="main__content-down">
+                <div class="main__content-down-header__table">
+                    <p>Id</p>
+                    <p>Task</p>
+                    <p>Status</p>
+                    <p>Time</p>
+                    <p>Mon, Aug 1 <span>8:00</span></p>
+                    <p>Tue, Aug 1 <span>8:00</span></p>
+                    <p>Wen, Aug 1 <span>8:00</span></p>
+                    <p>Thu, Aug 1 <span>8:00</span></p>
+                    <p>Fri, Aug 1 <span>8:00</span></p>
+                </div>
+                <div class="main__content-down-header__content">
+                    <div class="main__content-down-header__content-id">rgcf2y</div>
+                    <div class="main__content-down-header__content-task">EntelliCore presentation</div>
+                    <div class="main__content-down-header__content-status progress">In progress</div>
+                    <div class="main__content-down-header__content-time">4:00</div>
+                    <div>
+                        <div class="main__content-down-header__content-timeTab"><span>1h 35m</span><span></span></div>
+                        <div class="main__content-down-header__content-timeTab"><span>35m</span><span></span></div>
+                        <div><p class="main__content-down-header__content-plus">+</p></div>
+                    </div>
+                    <div>
+                        <div class="main__content-down-header__content-timeTab"><span>35m</span><span></span></div>
+                        <div><p class="main__content-down-header__content-plus">+</p></div>
+                    </div>
+                    <div>
+                        <div class="main__content-down-header__content-timeTab"><span>1h 05m</span><span></span></div>
+                        <div><p class="main__content-down-header__content-plus">+</p></div>
+                    </div>
+                    <div>
+                        <div class="main__content-down-header__content-timeTab"><span>1h 35m</span><span></span></div>
+                        <div class="main__content-down-header__content-timeTab"><span>35m</span><span></span></div>
+                        <div><p class="main__content-down-header__content-plus">+</p></div>
+                    </div>
+                    <div>
+                        <div class="main__content-down-header__content-timeTab"><span>1h 05m</span><span></span></div>
+                        <div><p class="main__content-down-header__content-plus">+</p></div>
+                    </div>
+                </div>
+
+                <div class="main__content-down-header__content">
+                    <div class="main__content-down-header__content-id">rgcf2y</div>
+                    <div class="main__content-down-header__content-task">EntelliCore presentation</div>
+                    <div class="main__content-down-header__content-status progress">In progress</div>
+                    <div class="main__content-down-header__content-time">4:00</div>
+                    <div>
+                        <div class="main__content-down-header__content-timeTab"><span>1h 35m</span><span></span></div>
+                        <div class="main__content-down-header__content-timeTab"><span>35m</span><span></span></div>
+                        <div><p class="main__content-down-header__content-plus">+</p></div>
+                    </div>
+                    <div>
+                        <div class="main__content-down-header__content-timeTab"><span>35m</span><span></span></div>
+                        <div><p class="main__content-down-header__content-plus">+</p></div>
+                    </div>
+                    <div>
+                        <div class="main__content-down-header__content-timeTab"><span>1h 05m</span><span></span></div>
+                        <div><p class="main__content-down-header__content-plus">+</p></div>
+                    </div>
+                    <div>
+                        <div class="main__content-down-header__content-timeTab"><span>1h 35m</span><span></span></div>
+                        <div class="main__content-down-header__content-timeTab"><span>35m</span><span></span></div>
+                        <div><p class="main__content-down-header__content-plus">+</p></div>
+                    </div>
+                    <div>
+                        <div class="main__content-down-header__content-timeTab"><span>1h 05m</span><span></span></div>
+                        <div><p class="main__content-down-header__content-plus">+</p></div>
+                    </div>
+                </div>
+
+                <div class="main__content-down-header__content">
+                    <div class="main__content-down-header__content-id">rgcf2y</div>
+                    <div class="main__content-down-header__content-task">EntelliCore presentation</div>
+                    <div class="main__content-down-header__content-status progress">In progress</div>
+                    <div class="main__content-down-header__content-time">4:00</div>
+                    <div>
+                        <div class="main__content-down-header__content-timeTab"><span>1h 35m</span><span></span></div>
+                        <div class="main__content-down-header__content-timeTab"><span>35m</span><span></span></div>
+                        <div><p class="main__content-down-header__content-plus">+</p></div>
+                    </div>
+                    <div>
+                        <div class="main__content-down-header__content-timeTab"><span>35m</span><span></span></div>
+                        <div><p class="main__content-down-header__content-plus">+</p></div>
+                    </div>
+                    <div>
+                        <div class="main__content-down-header__content-timeTab"><span>1h 05m</span><span></span></div>
+                        <div><p class="main__content-down-header__content-plus">+</p></div>
+                    </div>
+                    <div>
+                        <div class="main__content-down-header__content-timeTab"><span>1h 35m</span><span></span></div>
+                        <div class="main__content-down-header__content-timeTab"><span>35m</span><span></span></div>
+                        <div><p class="main__content-down-header__content-plus">+</p></div>
+                    </div>
+                    <div>
+                        <div class="main__content-down-header__content-timeTab"><span>1h 05m</span><span></span></div>
+                        <div><p class="main__content-down-header__content-plus">+</p></div>
+                    </div>
+                </div>
+
+                <div class="main__content-down-header__content">
+                    <div class="main__content-down-header__content-id">rgcf2y</div>
+                    <div class="main__content-down-header__content-task">EntelliCore presentation</div>
+                    <div class="main__content-down-header__content-status progress">In progress</div>
+                    <div class="main__content-down-header__content-time">4:00</div>
+                    <div>
+                        <div class="main__content-down-header__content-timeTab"><span>1h 35m</span><span></span></div>
+                        <div class="main__content-down-header__content-timeTab"><span>35m</span><span></span></div>
+                        <div><p class="main__content-down-header__content-plus">+</p></div>
+                    </div>
+                    <div>
+                        <div class="main__content-down-header__content-timeTab"><span>35m</span><span></span></div>
+                        <div><p class="main__content-down-header__content-plus">+</p></div>
+                    </div>
+                    <div>
+                        <div class="main__content-down-header__content-timeTab"><span>1h 05m</span><span></span></div>
+                        <div><p class="main__content-down-header__content-plus">+</p></div>
+                    </div>
+                    <div>
+                        <div class="main__content-down-header__content-timeTab"><span>1h 35m</span><span></span></div>
+                        <div class="main__content-down-header__content-timeTab"><span>35m</span><span></span></div>
+                        <div><p class="main__content-down-header__content-plus">+</p></div>
+                    </div>
+                    <div>
+                        <div class="main__content-down-header__content-timeTab"><span>1h 05m</span><span></span></div>
+                        <div><p class="main__content-down-header__content-plus">+</p></div>
+                    </div>
+                </div>
+
+                <div class="main__content-down-header__content">
+                    <div class="main__content-down-header__content-id">rgcf2y</div>
+                    <div class="main__content-down-header__content-task">EntelliCore presentation</div>
+                    <div class="main__content-down-header__content-status progress">In progress</div>
+                    <div class="main__content-down-header__content-time">4:00</div>
+                    <div>
+                        <div class="main__content-down-header__content-timeTab"><span>1h 35m</span><span></span></div>
+                        <div class="main__content-down-header__content-timeTab"><span>35m</span><span></span></div>
+                        <div><p class="main__content-down-header__content-plus">+</p></div>
+                    </div>
+                    <div>
+                        <div class="main__content-down-header__content-timeTab"><span>35m</span><span></span></div>
+                        <div><p class="main__content-down-header__content-plus">+</p></div>
+                    </div>
+                    <div>
+                        <div class="main__content-down-header__content-timeTab"><span>1h 05m</span><span></span></div>
+                        <div><p class="main__content-down-header__content-plus">+</p></div>
+                    </div>
+                    <div>
+                        <div class="main__content-down-header__content-timeTab"><span>1h 35m</span><span></span></div>
+                        <div class="main__content-down-header__content-timeTab"><span>35m</span><span></span></div>
+                        <div><p class="main__content-down-header__content-plus">+</p></div>
+                    </div>
+                    <div>
+                        <div class="main__content-down-header__content-timeTab"><span>1h 05m</span><span></span></div>
+                        <div><p class="main__content-down-header__content-plus">+</p></div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+</body>
+</html>
